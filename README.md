@@ -12,20 +12,6 @@ O `ProgressFort` é um módulo Fortran projetado para facilitar a criação e o 
 
 Para usar o `ProgressFort`, inclua-o no seu projeto Fortran e chame suas sub-rotinas conforme necessário para iniciar o temporizador, monitorar o progresso e finalizar o temporizador.
 
-### Exemplo Básico
-
-```fortran
-program teste
-    use ProgressFort
-
-    call start_timer(n) 
-    do i = 1, n
-        ! seu código aqui
-        call monitor_progress(i)
-    end do
-    call end_timer()
-
-end program teste
 
 ## Sub-rotinas
 
@@ -40,6 +26,25 @@ end program teste
 - **Otimização de Desempenho:** Melhorias no desempenho do módulo, garantindo que ele seja leve e não impacte negativamente o desempenho das aplicações.
 - **Integração com Outras Bibliotecas:** Explorar a integração com outras bibliotecas Fortran para expandir as funcionalidades e usos do módulo.
 
+
+
+### Exemplo Básico
+
+```fortran
+program teste
+    use ProgressFort
+
+    call start_timer(n) 
+    do i = 1, n
+        ! seu código aqui
+        call monitor_progress(i)
+    end do
+    call end_timer()
+
+end program teste
+```
+
 ## Licença
 
 Este projeto está sob a Licença Apache 2.0. Consulte o arquivo `LICENSE` para mais detalhes.
+
