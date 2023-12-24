@@ -1,4 +1,4 @@
-module timing_module
+module progressfort
     implicit none
 
     real :: temp_ini  ! marcador de tempo inicial
@@ -106,4 +106,4 @@ subroutine end_timer()
 
 end subroutine end_timer
 
-end module timing_module
+end module progressfort

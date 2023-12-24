@@ -1,6 +1,6 @@
 
 program test_progress
-    use timing_module
+    use progressfort
 
     implicit none
 
@@ -18,7 +18,7 @@ end program test_progress
 
 
 subroutine simulate_linear(duration, total_steps)
-    use timing_module
+    use progressfort
 
     integer, intent(in) :: total_steps
     real, intent(in) :: duration
@@ -39,7 +39,7 @@ subroutine simulate_linear(duration, total_steps)
 end subroutine simulate_linear
 
 subroutine simulate_logarithmic(duration, total_steps, log_base)
-    use timing_module
+    use progressfort
 
     integer, intent(in) :: total_steps
     real, intent(in) :: duration, log_base
