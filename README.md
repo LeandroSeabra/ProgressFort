@@ -1,7 +1,6 @@
 # Barra de Progresso para Fortran
 
 O `ProgressFort` é um módulo Fortran projetado para facilitar a criação e o gerenciamento de barras de progresso em aplicações de console. Ele oferece uma forma eficaz de visualizar o progresso de tarefas de longa duração.
-![Barra_30](img/barra_30.png)
 
 ![Barra_100](img/barra_100.png)
 
@@ -46,6 +45,8 @@ program teste
 
 end program teste
 ```
+![Barra_30](img/barra_30.png)
+
 
 ## Licença
 
