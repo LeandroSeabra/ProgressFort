@@ -1,7 +1,7 @@
 !===============================================================================
 ! PROGRESSFORT
 !===============================================================================
-! AUTOR: Leandro Seabra
+! AUTORES: Leandro Seabra
 ! DESCRIÇÃO:
 !   O módulo progressfort é uma ferramenta de monitoramento de progresso em
 !   aplicações Fortran. Ele fornece funcionalidades para medir e exibir o
