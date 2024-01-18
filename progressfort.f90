@@ -1,3 +1,39 @@
+!===============================================================================
+! PROGRESSFORT
+!===============================================================================
+! AUTOR: Leandro Seabra
+! DESCRIÇÃO:
+!   O módulo progressfort é uma ferramenta de monitoramento de progresso em
+!   aplicações Fortran. Ele fornece funcionalidades para medir e exibir o
+!   progresso de iterações, juntamente com estimativas de tempo restante.
+!   As subrotinas inclusas permitem iniciar um temporizador, monitorar o progresso 
+!   e encerrar o temporizador.
+!
+! UTILIZAÇÃO:
+!   Para usar o progressfort, inclua este módulo em seu projeto Fortran e
+!   chame as subrotinas start_timer, monitor_progress e end_timer conforme
+!   necessário para rastrear o progresso e o tempo de execução de suas
+!   iterações ou tarefas.
+!
+! CARACTERÍSTICAS:
+!   - Medição de tempo de CPU e sistema.
+!   - Barra de progresso colorida para visualização em tempo real.
+!   - Cálculo de tempo médio por iteração e estimativa de tempo restante.
+!
+! LICENÇA:
+!   Este projeto está sob a Licença Apache 2.0. Consulte o arquivo LICENSE
+!   para mais detalhes.
+!
+! NOTA:
+!   Este módulo utiliza códigos de cores ANSI e é otimizado para terminais
+!   que suportam esses códigos.
+!
+!===============================================================================
+! ATENÇÃO AOS COLABORADORES:
+!   Este prólogo contém informações importantes sobre este módulo. Por favor,
+!   não remova ou modifique este prólogo ao fazer alterações no código.
+!===============================================================================
+
 module progressfort
     implicit none
 
